@@ -1,0 +1,68 @@
+.group:after{
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: "";
+  line-height: 0;
+}
+html, body{
+  margin:0; 
+  padding:0;
+  font-family:"Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.all-wrap{
+  padding:0 20px;
+}
+header, footer{
+  padding:20px 0 25px 0;
+}
+header, section, footer{
+  border-bottom:5px solid black;
+  margin:0 auto;
+  max-width:652px;
+}
+footer{
+  border-bottom:none;
+}
+h1{
+  font-size:48px;
+  padding:0 0 10px 0;
+  margin:0;
+}
+h2{
+  margin:0;
+  padding:0;
+}
+.plugins{
+  padding:20px 0;
+}
+.plugins .product-image{
+  width:100%;
+  height:auto;
+}
+.plugins p{
+  margin-bottom:10px;
+  margin-top:0;
+}
+.plugins form{
+  font-size:0;
+  margin-top:18px;
+  position:relative;
+  width:278px;
+}
+.plugins form:after{
+  content:"";
+  display:block;
+  position:absolute;
+  bottom:-7px;
+  left:0;
+  right:0;
+  height:5px;
+}
+.plugins form:hover:after{
+  background-color:black;
+}
+.plugins iframe{
+  margin-top:25px;
+}
